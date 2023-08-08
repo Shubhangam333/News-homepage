@@ -53,12 +53,12 @@ header {
 .navbar .list {
   display: flex;
   justify-content: space-between;
+  transition: transform 0.2s linear;
 }
 
 .navbar .list li {
   list-style: none;
   padding: 0rem 1.5rem;
-  /* transition: all 10s ease-in; */
 }
 
 .navbar .list li a {
@@ -288,7 +288,7 @@ footer {
     width: 60%;
     max-width: 30rem;
     padding: 10rem 2rem;
-    transform: translateX(10000px);
+    transform: translateX(800px);
   }
   .navbar .list li {
     display: block;
